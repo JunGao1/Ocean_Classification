@@ -1,9 +1,11 @@
 ## 程序结构
 *   run.py 主程序，包括网络训练、验证和测试
 	
-	'''
+	<html>
+	  <head>
 	python run.py --phase ['train']['test'] --flag ['human'] --save_path ['checkpoint/human'] --gpu_id ['-1']['0'] ...
-	'''
+	  </head>
+        </html>
 
 *   dataset.py 数据集预处理
 *   model.py 模型文件
